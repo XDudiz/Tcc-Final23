@@ -1,0 +1,18 @@
+div#aba nav a {
+    margin: 5px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+div.abas .aba1 div{
+    display: inline-block;
+}
+
+div.abas div:target{
+    display: block;
+}
+
+#aba1{
+    text-align: center;
+    padding-top: 10px;
+}

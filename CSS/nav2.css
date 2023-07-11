@@ -1,0 +1,46 @@
+.nav2{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: #faf29d;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    transition: 0.5s;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.nav2 ul li a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f564d7;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav2 ul li a:hover{
+    color: #de8a50;
+}
+
+.nav2 ul li .closebtn{
+    margin-left: 50px;
+    font-size: 36px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.openbtn{
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+}
+
+.openbtn:hover{
+    background-color: #444;
+}
